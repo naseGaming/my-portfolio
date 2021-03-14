@@ -31,6 +31,19 @@
 	font-size: 2vw;
 }
 
+@media only screen and (max-width: 800px) {
+
+	#about-content-right{
+		width: 20vw;
+		margin-left: 60vw;
+		margin-right: 20vw;
+	}
+
+	#about-content-right table{
+		font-size: 3vw;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	#about-content{
 		margin-top: 10vh;
@@ -52,18 +65,5 @@
 
 	#about-content-right table{
 		font-size: 4vw;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-
-	#about-content-right{
-		width: 20vw;
-		margin-left: 60vw;
-		margin-right: 20vw;
-	}
-
-	#about-content-right table{
-		font-size: 3vw;
 	}
 }
