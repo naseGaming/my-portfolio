@@ -54,7 +54,7 @@
 	color: rgba(247, 108, 108, 1);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1208px) {
 	.project{
 		width: 50vw;
 		height: 16vh;
@@ -69,7 +69,7 @@
 	}
 }
 
-@media only screen and (max-width: 1208px) {
+@media only screen and (max-width: 600px) {
 	.project{
 		width: 50vw;
 		height: 16vh;
