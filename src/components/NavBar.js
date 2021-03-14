@@ -1,6 +1,7 @@
 import React from 'react'
 import myLogo from '../images/black-in-white-512.png'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import './NavBar.css'
 
 class NavBar extends React.Component {
 	constructor(props){
@@ -59,16 +60,16 @@ class NavBar extends React.Component {
 					&nbsp;
 					<mark>Too</mark>
 				</div>
-				<Link to = "/" onClick = {() => this.changeClass("home")} className = {this.state.home} >
+				<Link to = "/my-portfolio/" onClick = {() => this.changeClass("home")} className = {this.state.home} >
 						<i className = "fa fa-home"></i> Home
 				</Link>
-				<Link to = "/About" onClick = {() => this.changeClass("about")} className = {this.state.about} >
+				<Link to = "/my-portfolio/About" onClick = {() => this.changeClass("about")} className = {this.state.about} >
 						<i className="fas fa-info"></i> About
 				</Link>
-				<Link to = "/Portfolio" onClick = {() => this.changeClass("portfolio")} className = {this.state.portfolio} >
+				<Link to = "/my-portfolio/Portfolio" onClick = {() => this.changeClass("portfolio")} className = {this.state.portfolio} >
 						<i className="fas fa-folder-open"></i> Portfolio
 				</Link>
-				<Link to = "/Contact" onClick = {() => this.changeClass("contact")} className = {this.state.contact} >
+				<Link to = "/my-portfolio/Contact" onClick = {() => this.changeClass("contact")} className = {this.state.contact} >
 						<i className="fas fa-id-card"></i> Contact
 				</Link>
 			</div>
