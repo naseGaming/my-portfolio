@@ -15,6 +15,11 @@ strong #position{
 	font-size: 4vh;
 }
 
+#home-content td{
+	width: 4vw;
+	padding: 3px;
+}
+
 .ContactButtons{
 	width: 3vw;
 	height: 3vw;
@@ -23,7 +28,6 @@ strong #position{
 	outline: none;
 	border: none;
 	color: rgba(168, 208, 230, 1);
-	margin-right: 1vw;
 }
 
 .ContactButtons:hover, .ContactLink:hover{
@@ -38,7 +42,6 @@ strong #position{
 	outline: none;
 	border: none;
 	color: rgba(168, 208, 230, 1);
-	margin-left: 2vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -47,13 +50,24 @@ strong #position{
 		width: 7vw;
 		height: 7vw;
 		font-size: 5vh;
-		margin-right: 2vw;
 	}
 
 	.ContactLink{
 		width: 7vw;
 		height: 7vw;
 		font-size: 5vh;
-		margin-right: 3vw;
+	}
+
+	#home-content td{
+		width: 10vw;
+		padding: 9px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+	#home-content td{
+		width: 7vw;
+		padding: 6px;
 	}
 }
