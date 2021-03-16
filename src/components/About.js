@@ -7,7 +7,7 @@ function About() {
 			<div id = "about-content" >
 				<div id = "about-content-left" >
 					<p>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IT Graduate with exceptional strengths in handling stressful situations and has great critical problem solving ability. I also love developing small web applications to test my current skills in web development. I've already done a simple game that you see in my portfolio.
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An IT Graduate with exceptional strengths in handling stressful situations and has great critical problem solving ability. I also love developing small web applications to test my current skills in web development. I've already done a simple game that you can see in my portfolio.
 					</p>
 				</div>
 				<div id = "about-content-right" >
