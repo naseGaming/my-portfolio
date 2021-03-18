@@ -11,6 +11,9 @@
 	float: left;
 	width: 20vw;
 	text-align: center;
+	position: fixed;
+	background: #24305e;
+	z-index: +1;
 }
 
 img{
@@ -22,6 +25,11 @@ mark{
 	font-size: 2vw;
 	color: rgba(255, 255, 255, 1);
 	background-color: rgba(0, 0, 0, 0);
+}
+
+#navBar-content{
+	position: fixed;
+	margin-left: 20vw;
 }
 
 .navBarButtonsActive{
@@ -50,7 +58,7 @@ mark{
 	border: none;
 	text-decoration: none;
 	padding-top: 1vh;
-	outline: none;
+	outline: inherit;
 }
 
 .navBarButtonsActive:hover, .navBarButtonsInactive:hover{
@@ -59,6 +67,9 @@ mark{
 }
 
 @media only screen and (max-width: 600px) {
+	#navBar{
+		height: 40vh;
+	}
 
 	.myLogo{
 		float: left;
@@ -66,15 +77,22 @@ mark{
 		text-align: center;
 	}
 
+	#navBar-content{
+		margin-left: 0;
+		margin-top: 6vw;
+	}
+
 	.navBarButtonsActive{
 		width: 100vw;
 		height: 7vw;
 		font-size: 5vw;
+		margin-bottom: -1vh;
 	}
 
 	.navBarButtonsInactive{
 		width: 100vw;
 		height: 7vw;
 		font-size: 5vw;
+		margin-bottom: -1vh;
 	}
 }
