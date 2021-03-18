@@ -60,18 +60,20 @@ class NavBar extends React.Component {
 					&nbsp;
 					<mark>Too</mark>
 				</div>
-				<Link to = "/my-portfolio/" onClick = {() => this.changeClass("home")} className = {this.state.home} >
-						<i className = "fa fa-home"></i> Home
-				</Link>
-				<Link to = "/my-portfolio/About" onClick = {() => this.changeClass("about")} className = {this.state.about} >
-						<i className="fas fa-info"></i> About
-				</Link>
-				<Link to = "/my-portfolio/Portfolio" onClick = {() => this.changeClass("portfolio")} className = {this.state.portfolio} >
-						<i className="fas fa-folder-open"></i> Portfolio
-				</Link>
-				<Link to = "/my-portfolio/Contact" onClick = {() => this.changeClass("contact")} className = {this.state.contact} >
-						<i className="fas fa-id-card"></i> Contact
-				</Link>
+				<div id = "navBar-content" >
+					<Link to = "/my-portfolio/" onClick = {() => this.changeClass("home")} className = {this.state.home} >
+							<i className = "fa fa-home"></i> Home
+					</Link>
+					<Link to = "/my-portfolio/About" onClick = {() => this.changeClass("about")} className = {this.state.about} >
+							<i className="fas fa-info"></i> About
+					</Link>
+					<Link to = "/my-portfolio/Portfolio" onClick = {() => this.changeClass("portfolio")} className = {this.state.portfolio} >
+							<i className="fas fa-folder-open"></i> Portfolio
+					</Link>
+					<Link to = "/my-portfolio/Contact" onClick = {() => this.changeClass("contact")} className = {this.state.contact} >
+							<i className="fas fa-id-card"></i> Contact
+					</Link>
+				</div>
 			</div>
 		)
 	}
