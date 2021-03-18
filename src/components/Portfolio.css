@@ -72,61 +72,89 @@
 }
 
 @media only screen and (max-width: 700px) {
-	.project{
+
+	.project, .project-right{
 		width: 50vw;
+		margin-left:0;
 	}
 
-	.project .Icon{
+	.project .Icon, .project-right .Icon{
 		font-size: 12vw;
 	}
 
-	.project .title{
+	.project .title, .project-right .title{
 		font-size: 4vw;
 	}
 
-	.project .content{
+	.project .content, .project-right .content{
 		font-size: 2.5vw;
 	}
 
-	.project .VisitApp{
+	.project .VisitApp, .project-right .VisitApp{
 		font-size: 2.5vw;
 	}
 }
 
 @media only screen and (max-width: 600px) {
 
-	.project .Icon{
+	#portfolio-content{
+		margin-top: 0;
+		margin-left: 0;
+		width: 100vw;
+		height: 100vh;
+	    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		background: -moz-linear-gradient(150deg, #24305e 60%, #f76c6c 60%);
+		background: -webkit-linear-gradient(150deg, #24305e 60%, #f76c6c 60%);
+		background: linear-gradient(150deg, #24305e 60%, #f76c6c 60%);
+		background-repeat: no-repeat;
+	    -webkit-touch-callout: none;
+	    -webkit-user-select: none;
+	    -khtml-user-select: none;
+	    -moz-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none;
+	}
+
+	.project{
+		margin-left: 25vw;
+	}
+
+	.project-right{
+		margin-left: 25vw;
+	}
+
+	.project .Icon, .project-right .Icon{
 		font-size: 15vw;
 	}
 
-	.project .title{
+	.project .title, .project-right .title{
 		font-size: 6vw;
 	}
 
-	.project .content{
+	.project .content, .project-right .content{
 		font-size: 3.5vw;
 	}
 
-	.project .VisitApp{
+	.project .VisitApp, .project-right .VisitApp{
 		font-size: 3.5vw;
 	}
 }
 
 @media only screen and (max-width: 500px) {
 
-	.project .Icon{
+	.project .Icon, .project-right .Icon{
 		font-size: 18vw;
 	}
 
-	.project .title{
+	.project .title, .project-right .title{
 		font-size: 8vw;
 	}
 
-	.project .content{
+	.project .content, .project-right .content{
 		font-size: 4vw;
 	}
 
-	.project .VisitApp{
+	.project .VisitApp, .project-right .VisitApp{
 		font-size: 4vw;
 	}
 }
