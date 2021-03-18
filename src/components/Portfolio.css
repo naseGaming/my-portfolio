@@ -13,27 +13,43 @@
   	box-shadow: 5px 10px 18px black;
   	-webkit-box-shadow: 5px 10px 18px black;
   	-moz-box-shadow: 5px 10px 18px black;
+  	float: left;
+  	margin-bottom: 5vw;
+  }
+
+.project-right{
+	width: 20vw;
+	height: 24vh;
+	text-align: center;
+	color: rgba(247, 108, 108, 1);
+	background-color: rgba(248, 233, 161, 1);
+  	box-shadow: 5px 10px 18px black;
+  	-webkit-box-shadow: 5px 10px 18px black;
+  	-moz-box-shadow: 5px 10px 18px black;
+  	float: left;
+  	margin-left: 10vw;
+  	margin-bottom: 5vw;
 }
 
-.project .Icon{
+.project .Icon, .project-right .Icon{
 	width: 100%;
 	float: left;
 	font-size: 7vw;
 }
 
-.project .title{
+.project .title, .project-right .title{
 	width: 100%;
 	float: left;
 	font-size: 2vw;
 }
 
-.project .content{
+.project .content, .project-right .content{
 	width: 100%;
 	float: left;
 	font-size: 1.3vw;
 }
 
-.project .VisitApp{
+.project .VisitApp, .project-right .VisitApp{
 	font-size: 2vw;
 	border: none;
 	text-decoration: none;
@@ -44,13 +60,13 @@
 	background: rgba(55, 71, 133, 1);
 }
 
-.project .VisitApp:hover{
+.project .VisitApp:hover, .project-right .VisitApp:hover{
 	color: rgba(248, 233, 161, 1);
 	background: rgba(247, 108, 108, 1);
 }
 
 @media only screen and (max-width: 1000px) {
-	.project .content{
+	.project .content, .project-right .content{
 		font-size: 1.5vw;
 	}
 }
