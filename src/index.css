@@ -13,7 +13,6 @@ html, body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-	overflow: hidden;
 }
 
 #contents{
@@ -23,11 +22,12 @@ html, body {
 	text-align: center;
 	color: rgba(255, 255, 255, 1);
 	float: left;
+	z-index: -1;
 }
 
 @media only screen and (max-width: 600px) {
 	#contents{
 		margin-top: 30vh;
-		height: 100vh;
+		height: 60vh;
 	}
 }
