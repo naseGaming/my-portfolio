@@ -87,11 +87,11 @@ class Portfolio extends React.Component {
 		if(page === "ClickTitans") {
 			window.open("http://clicktitans.epizy.com/")
 		}
-		else if(page === "Porta") {
-
+		else if(page === "Portal") {
+			window.open("https://github.com/naseGaming/onlineGrading")
 		}
 		else{
-
+			window.open("https://github.com/naseGaming/portfolio-pos-app")
 		}
 	}
 
@@ -144,7 +144,7 @@ class Portfolio extends React.Component {
 							<p> {Portal.description} </p>
 						</div>
 						<div className = "button" >
-							<button className = "VisitApp" onClick = {() => this.goTo(Portal.page)} >Visit</button>
+							<button className = "VisitApp" onClick = {() => this.goTo(Portal.page)} >View</button>
 						</div>
 					</div>
 		}
@@ -167,7 +167,7 @@ class Portfolio extends React.Component {
 							<p> {POS.description} </p>
 						</div>
 						<div className = "button" >
-							<button className = "VisitApp" onClick = {() => this.goTo(POS.page)} >Visit</button>
+							<button className = "VisitApp" onClick = {() => this.goTo(POS.page)} >View</button>
 						</div>
 					</div>
 		}
