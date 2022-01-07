@@ -85,7 +85,7 @@ class Portfolio extends React.Component {
 
 	goTo(page) {
 		if(page === "ClickTitans") {
-			window.open("http://clicktitans.epizy.com/")
+			window.open("https://github.com/RolandChristianRegacho/ClickTitans")
 		}
 		else if(page === "Portal") {
 			window.open("https://github.com/naseGaming/onlineGrading")
